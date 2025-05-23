@@ -8,7 +8,7 @@
 		background: url(pC:\Users\Gonza\viajes-estudiantil\archivosmenuprincipal\pagina_web\img\imagen1.jpg);
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
-		font-family: 'open sans';
+		font-family: 'arial black';
 	}
 
 	.capa {
@@ -40,10 +40,11 @@
 	}
 
 	.container .btn-menu label {
-		color: #054d1d;
+		color: #f8faf8;
 		font-size: 25px;
 		cursor: pointer;
 		margin-left: -45px;
+		
 	}
 
 	.emblema {
@@ -73,7 +74,7 @@
 	}
 
 	.container .menu a:hover {
-		border-bottom: 2px solid #fff;
+		border-bottom: 2px solid #ffffff;
 		padding-bottom: 5px;
 	}
 
@@ -114,20 +115,20 @@
 	}
 
 	.cont-menu nav {
-		transform: translateY(15%);
+		transform: translateY(25%);
 	}
 
 	.cont-menu nav a {
 		display: block;
 		text-decoration: none;
-		padding: 20px;
-		color: #c7c7c7;
-		border-left: 5px solid transparent;
+		padding: 35px;
+		color: #f6f6f7;
+		border-left: 10px solid transparent;
 		transition: all 400ms ease;
 	}
 
 	.cont-menu nav a:hover {
-		border-left: 5px solid #c7c7c7;
+		border-right: 5px solid #e20707;
 		background: #1f1f1f;
 	}
 
@@ -135,7 +136,8 @@
 		position: absolute;
 		right: 5px;
 		top: 10px;
-		color: #fff;
+		color: #e20707;
 		cursor: pointer;
-		font-size: 25px;
+		font-size: 30px;
+		
 	}
