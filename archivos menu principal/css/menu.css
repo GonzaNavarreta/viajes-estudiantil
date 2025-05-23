@@ -5,17 +5,17 @@
 	}
 
 	body {
-		background: url(/pagina_web/img/imagen1.jpg);
+		background: url();/* este es la imagen de fondo */
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
 		font-family: 'arial black';
 	}
 
-	.capa {
+	.capa { /* ESte es el color del fondo*/
 		position: fixed;
 		width: 100%;
 		height: 100vh;
-		background: rgba(0,0,0,0.6);
+		background: #cac7a4;
 		z-index: -1;
 		top: 0;left: 0;
 	}
@@ -102,7 +102,7 @@
 	.cont-menu {
 		width: 100%;
 		max-width: 250px;
-		background-color: rgba(171, 241, 8, 0.4);
+		background-color: rgba(71, 71, 70, 0.4);
 		height: 100vh;
 		position: relative;
 		transition: all 500ms ease;
@@ -117,7 +117,7 @@
 	.cont-menu nav {
 		transform: translateY(25%);
 	}
-
+	
 	.cont-menu nav a {
 		display: block;
 		text-decoration: none;
@@ -146,58 +146,50 @@
 		font-size: 25px;
 	}
 	.menu {
-            position: relative;
-            display: inline-block;
-        }
-        .menu-button {
-            background-color: #008CBA;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        .menu-content {
-            display: none;
-            position: absolute;
-            background-color: transparent;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-            z-index: 1;
+        position: relative;
+        display: inline-block;
+    }
+    .menu-button {
+        padding: 10px 2px;
+        border: none;
+        cursor: pointer;
+    }
+    .menu-content {
+        display: none;
+        position: absolute;
+        background-color: transparent;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .menu-content a {
+		color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
 			
-        }
-        .menu-content a {
-			color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-			
-        }
-        .menu-content a:hover {
-            background-color: white;
-        }
-        .menu:hover .menu-content {
-            display: block;
-			margin: -5px;
-        }
-=======
-
-
-	}
+    }
+    .menu-content a:hover {
+        background-color: #ffe600;
+    }
+    .menu:hover .menu-content {
+        display: block;
+		margin: -5px;
+    }
 	.resumen {
-		color: aqua;
-		font-size: 1.5rem;
-		font-weight: bold;
-		margin-bottom: 1rem;
-	  }
+	color: #ffe600;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	}
 	.tarjetas-abajo {
-		position: fixed;
-		bottom:0;
-		padding: 40px;
+	position: fixed;
+	bottom:0;
+	padding: 40px;
 	}
 	.card-group {
-		
-		display: flex;
-		gap: 4rem; /* podés cambiar el valor para más o menos espacio */
+	display: flex;
+	gap: 4rem; /* podés cambiar el valor para más o menos espacio */
 	}
 
 >>>>>>> 781419b6fc959b5409b3b07724a66d24df5a9aa0

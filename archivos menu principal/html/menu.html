@@ -4,27 +4,22 @@
 	<meta charset="UTF-8">
 	<title>Proyecto Integrador</title>
 	<link rel="stylesheet" href="/css/menu.css">
-	<link rel="shortcut icon" href="/pagina_web/img/icono.png" type="image/x-icon">
-=======
-
+	<link rel="shortcut icon" href="" type="image/x-icon">
 	<link rel="stylesheet" href="/archivos menu principal/css/menu.css">
 	<link rel="shortcut icon" href="/archivos menu principal/pagina_web/img/logo.png" type="image/x-icon">
-=======
-	<link rel="stylesheet" href="/css/menu.css">
-	<link rel="shortcut icon" href="/pagina_web/img/icono.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/3990fb7ca4.js" crossorigin="anonymous"></script>
-	<!-- Bootstrap CSS -->
+	<!-- Bootstrap CSS Tajetitas -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-	<!-- Tu CSS personalizado -->
-	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-	
+<!--Comienza botón-->
 	<header class="header">
 		<div class="container">
+
+			<div class="btn-menu">
+				<label for="btn-menu"><i class="fa-solid fa-bars"></i></label>
 		<div class="btn-menu">
 			<label for="btn-menu"><i class="fa-solid fa-bars"></i></label>
 		</div>
@@ -35,73 +30,71 @@
 				<img src="/archivos menu principal/pagina_web/img/logo.png" class="emblema">
 
 
+
 			</div>
-			<nav class="menu">
-				<a href="#"><i class="fa-solid fa-user"></i> Usuario</a>
-			</nav><!--aqui-->
 			<div class="menu">
-        		<button class="menu-button">Menú</button>
+			<a href="#"><i class="fa-solid fa-user"></i> Usuario</a>
         			<div class="menu-content">
-            			<a href="#">Opción 1</a>
-            			<a href="#">Opción 2</a>
-            			<a href="#">Opción 3</a>
+            			<a href="#">Perfil</a>
+            			<a href="#">Preferencias</a>
+            			<a href="#">Cerrar Sesión</a>
         			</div>
     		</div>
-			<!--hasta aqui-->
 		</div>
 	</header>
-
+<!--Termina boton-->
+<!--Comienza Menú lateral-->
 	<div class="capa"></div>
-
-<input type="checkbox" id="btn-menu">
-
-<div class="container-menu">
-	<div class="cont-menu">
+	<input type="checkbox" id="btn-menu">
+	<div class="container-menu">
+		<div class="cont-menu">
 		<nav>
 			<a href="#"><i class="fa-solid fa-house"></i> Menu Principal</a>
+
+			<a href="#"><i class="fa-solid fa-address-book"></i>Crear Publicacion</a>
+			<a href="#"><i class="fa-solid fa-dollar"></i> Pendientes</a>
+			<a href="#"><i class="fa-solid fa-gifts"></i> Desempeño</a>
+
 			<a href="#"><i class="fa-solid fa-file-circle-plus"></i>Crear Publicacion</a>
 			<a href="#"><i class="fa-solid fa-hourglass-half"></i> Pendientes</a>
 			<a href="#"><i class="fa-solid fa-chart-simple"></i> Desempeño</a>
 			
 			
 		</nav>
-		<label for="btn-menu"><i class="fa-regular fa-rectangle-xmark"></i></label>
+		<label for="btn-menu"><i class="fa-regular fa-rectangle-xmark"></i></label><!--Cerrar el menú-->
+		</div>
 	</div>
-</div>
+<!--Termina el menú lateral-->
 
-<div class="tarjetas-abajo">
-	<h2 class="resumen">Resumen de Rendimiento</h2>
-	<div>
-	  <div class="card-group " style="max-width: 50rem;">
-		<div class="card bg-warning border-warning " >
-		  <a href="#" class="btn btn-warning">
+<!--Comienza Panel de Rendimiento-->
+	<div class="tarjetas-abajo">
+		<h2 class="resumen">Resumen de Rendimiento</h2>
+		<div class="card-group " style="max-width: 50rem;">
+			<div class="card bg-warning border-warning " >
+			<a href="#" class="btn btn-warning">
 				<div class="card-body">
 				<h3 class="dato-principal">$0,00</h3>
 				<p class="dato-secundario">No hay historial de pagos</p>
 				</div>
-		  </a>
-		</div>
-  
-		<div class="card bg-warning border-warning text-dark">
-		  <a href="#" class="btn btn-warning">
-			<div class="card-body">
-			  <h3 class="dato-principal">$0,00</h3>
-			  <p class="dato-secundario">No hay historial de pagos</p>
+			</a>
 			</div>
-		  </a>
-		</div>
-  
-		<div class="card bg-warning border-warning text-dark">
-		  <a href="#" class="btn btn-warning">
-			<div class="card-body">
-			  <h3 class="dato-principal">$0,00</h3>
-			  <p class="dato-secundario">No hay historial de pagos</p>
+			<div class="card bg-warning border-warning ">
+			<a href="#" class="btn btn-warning">
+				<div class="card-body">
+				<h3 class="dato-principal">13</h3>
+				<p class="dato-secundario">Publicaciones activas</p>
+				</div>
+			</a>
 			</div>
-		  </a>
+			<div class="card bg-warning border-warning ">
+			<a href="#" class="btn btn-warning">
+				<div class="card-body">
+				<h3 class="dato-principal">$0,00</h3>
+				<p class="dato-secundario">No hay historial de pagos</p>
+				</div>
+			</a>
+			</div>
 		</div>
-  
-	  </div>
 	</div>
-  </div>
-  
+</body>
 </html>
